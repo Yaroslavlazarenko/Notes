@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.area {
+    background-color: #e9fff5;
+    height: calc(100vh - 90px);
+    width: 100vw;
+    position: relative;
+}
+
+.buttons{
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5781a2;
+
+}
+
+.btn_add {
+    height: 50px;
+    width: 80px;
+    background-color: #eeed84;
+    border-radius: 10%;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.btn_del {
+    height: 50px;
+    width: 80px;
+    background-color: #000;
+    border-radius: 10%;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.area .box {
+    height: 200px;
+    width: 200px;
+    background-color: #274f38;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.box_text{
+    width: 200px;
+    height: 175px;
+    font-size: 16px;
+    color: white;
+    margin-top:25px;
+    padding: 5px 10px 0 10px;
+    background-color: #135e4c;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 5px;
+}
